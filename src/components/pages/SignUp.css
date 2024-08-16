@@ -1,0 +1,56 @@
+/* Background image for the entire page */
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../../public/images/signup.jpg"); /* Replace with your background image URL */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Text color set to white for contrast */
+}
+
+/* Container for the sign-up form */
+.signup-container {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  width: 350px;
+}
+
+/* Form field styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+/* Sign-up button styling */
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,59 @@
+/* Background image for the entire page */
+.adventure-services {
+  padding: 40px;
+  background-image: url("../../../public/images/img-home.jpg"); /* Replace with your background image URL */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: #fff; /* Text color set to white for contrast */
+}
+
+/* Semi-transparent background for content */
+.adventure-services h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.service-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+  color: #333;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.card-content p {
+  margin: 10px 0;
+}
