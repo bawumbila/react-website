@@ -53,10 +53,9 @@ function Footer() {
           </div>
           <div class="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Youtube</Link>
-            <Link to="/">Twitter</Link>
+            <Link to="https://www.linkedin.com/in/awumbila/">LinkdIn</Link>
+            <Link to="https://bawumbila2.netlify.app/">Portfolio</Link>
+            <Link to="https://github.com/bawumbila">GitHub</Link>
           </div>
         </div>
       </div>
@@ -71,40 +70,24 @@ function Footer() {
           <small class="website-rights">XPDITION © 2024</small>
           <div class="social-icons">
             <Link
-              class="social-icon-link facebook"
-              to="/"
+              class="social-icon-link github"
+              to="https://github.com/bawumbila"
               target="_blank"
-              aria-label="Facebook"
+              aria-label="Github"
             >
-              <i class="fab fa-facebook-f" />
+              <i class="fa-brands fa-square-github" />
             </Link>
             <Link
-              class="social-icon-link instagram"
-              to="/"
+              class="social-icon-link portfolio"
+              to="https://bawumbila2.netlify.app/"
               target="_blank"
-              aria-label="Instagram"
+              aria-label="Portfolio"
             >
-              <i class="fab fa-instagram" />
+              <i class="fa-solid fa-briefcase" />
             </Link>
             <Link
-              class="social-icon-link youtube"
-              to="/"
-              target="_blank"
-              aria-label="Youtube"
-            >
-              <i class="fab fa-youtube" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="Twitter"
-            >
-              <i class="fab fa-twitter" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
+              class="social-icon-link linkdin"
+              to="https://www.linkedin.com/in/awumbila/"
               target="_blank"
               aria-label="LinkedIn"
             >

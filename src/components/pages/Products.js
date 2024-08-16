@@ -1,5 +1,5 @@
 import React from "react";
-import "./Products.css"; // Assuming you have a separate CSS file
+import "./Products.css";
 
 // Example destination data
 const destinations = [
