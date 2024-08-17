@@ -67,7 +67,7 @@ function Footer() {
               <i class="fa-solid fa-earth-americas" />
             </Link>
           </div>
-          <small class="website-rights">XPDITION © 2024</small>
+          <small class="website-rights">XPDITION © 2024 By Bawa Awumbila</small>
           <div class="social-icons">
             <Link
               class="social-icon-link github"
