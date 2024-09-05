@@ -17,7 +17,6 @@ function HeroSection() {
         >
           GET STARTED
         </Button>
-
         <Button
           className="btns"
           buttonStyle="btn--primary"
